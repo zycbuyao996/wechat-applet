@@ -1,0 +1,13 @@
+<!--必须用block-->
+<view class="page">
+<block wx:for="{{schoollist}}"  wx:key="{{index}}">
+  <view bindtap="subject" data-school="{{item.school}}"  class="divLine">
+    <view  class="user-name">
+      {{item.school}}
+    </view>
+    <view style="margin-top:4rpx;font-weight: lighter;">
+      分数线：{{item.mark}}
+    </view>
+  </view>
+</block>
+</view>

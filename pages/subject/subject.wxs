@@ -1,0 +1,8 @@
+function indexOf(subjectlist,first) {
+  if (subjectlist.indexOf(first) < 0) {
+      return false;
+  } else {
+      return true;
+  }
+}
+  module.exports.indexOf = indexOf;

@@ -1,0 +1,20 @@
+<view class="beijing">
+  <input type="text" placeholder="搜索" placeholder-style="padding-left:333rpx;" bindconfirm="search" confirm-type="search"/>
+
+</view>
+<block wx:for="{{mark}}" wx:key="{{index}}">
+  <view class="mark">
+    分数线：{{item.mark}}
+  </view>
+</block>
+<block wx:for="{{subject}}" wx:key="index">
+  <view class="subcss">
+      {{item.subjectname}}:{{item.subjectmark}}
+      <view class="biaoqian">
+        {{item.subjectrequest}}:{{item.first}} {{item.second}}
+
+
+      </view>
+    </view>
+
+</block>

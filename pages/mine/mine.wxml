@@ -1,0 +1,22 @@
+<view class="user_info_wrap">
+  <view wx:if="{{userinfo.avatarUrl}}" class="user_imag_wrap">
+    <image class="user_bg" src="{{userinfo.avatarUrl}}">
+
+    </image>
+    <view class="user_info">
+      <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+      <view class="user_name">{{userinfo.nickName}}
+
+      </view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <navigator url="../login/login">登录</navigator>
+  </view>
+</view>
+<button style="margin-top: 200rpx;" type="primary" open-type="feedback">
+  意见反馈
+</button>
+<button style="margin-top: 10rpx" type="primary" open-type="contact">联系客服</button>
+<button style="margin-top: 10rpx" type="primary" open-type="share">分享程序</button>
+

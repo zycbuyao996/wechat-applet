@@ -1,0 +1,25 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view style="display:flex;height:110rpx;margin-top:200rpx;">
+    <input maxlength="3" name="input" type="number" confirm-type="go" placeholder="请输入成绩"/>
+  </view>
+  <view style="height:80rpx">
+    选择科目
+  </view>
+  <view >
+        <checkbox-group name="checkbox">
+          <label>政治<checkbox value="思想" color="#1296db"/></label>
+          <label>历史<checkbox value="历史" color="#1296db"/></label>
+          <label>地理<checkbox value="地理" color="#1296db"/></label>
+          <label>物理<checkbox value="物理" color="#1296db"/></label>
+          <label>化学<checkbox value="化学" color="#1296db"/></label>
+          <label>生物<checkbox value="生物" color="#1296db"/></label>
+        </checkbox-group>
+  </view>
+  <view  style="display:flex;margin-top:50rpx;">
+    <button style="background:#89c3eb;font-weight: lighter;" size="mini"  formType="submit">开始推荐</button>
+    <button style="background:#bfbfbf;font-weight: lighter;" size="mini" formType="reset">重新填写</button>
+  </view>
+</form>
+
+
+

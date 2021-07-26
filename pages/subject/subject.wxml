@@ -1,0 +1,44 @@
+<wxs src="subject.wxs" module="app"/> 
+<block class="page" wx:for="{{subjectlistall}}" wx:key="index">
+  <view wx:if="{{item.subjectrequest=='不提科目要求'}}">
+    <view class="subcss">
+      {{item.subjectname}}:{{item.subjectmark}}
+      <view class="biaoqian">
+        不提科目要求
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{item.subjectrequest=='一门科目考生必须选考方可报考'&&app.indexOf(subjectlist,item.first)}}">
+    <view class="subcss">
+      {{item.subjectname}}:{{item.subjectmark}}
+      <view class="biaoqian">
+        一门科目考生必须选考方可报考:{{item.first}}
+
+
+      </view>
+    </view>
+  </view >
+  <view wx:if="{{item.subjectrequest=='两门科目考生选考其中一门即可报考'}}">
+    <view wx:if="{{app.indexOf(subjectlist,item.first)||app.indexOf(subjectlist,item.second)}}">
+      <view class="subcss">
+        {{item.subjectname}}:{{item.subjectmark}}
+        <view class="biaoqian">
+          两门科目考生选考其中一门即可报考:{{item.first}} {{item.second}}
+
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{item.subjectrequest=='两门科目考生均须选考方可报考'}}">
+    <view wx:if="{{app.indexOf(subjectlist,item.first)&&app.indexOf(subjectlist,item.second)}}">
+    <view class="subcss">
+      {{item.subjectname}}:{{item.subjectmark}}
+      <view class="biaoqian">
+        两门科目考生均须选考方可报考:{{item.first}} {{item.second}}
+
+      </view>
+    </view>
+  </view>
+  </view>
+</block>
+

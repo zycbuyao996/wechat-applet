@@ -1,0 +1,12 @@
+input{
+  height: 80rpx;
+  width: 100%;
+  border-style:solid;
+  border-radius: 15rpx;
+}
+checkbox{
+  width: 180rpx;
+  height: 80rpx;
+}
+
+

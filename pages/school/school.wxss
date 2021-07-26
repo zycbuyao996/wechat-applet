@@ -1,0 +1,43 @@
+.beijing{
+  height: 75rpx;
+  background-color: #1296db;
+}
+input{
+  height: 90%;
+  background-color: #fff;
+  border-radius: 15rpx;
+  margin-left: 7rpx;
+  margin-right: 7rpx;
+}
+.subcss{
+  margin-top:7rpx;
+  margin-bottom:7rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+  border-radius:6rpx;
+  background: #e4f6f5;
+  height: 120rpx;
+  
+
+}
+.biaoqian{
+  background: #fdeff2;
+  margin-top:30rpx;
+  height: 30rpx;
+  font-size: 25rpx;
+
+}
+page{
+  height:100%;
+  background-image:url(https://ae01.alicdn.com/kf/H7dfe4dedc45847f8a6e6c7239053d039A.jpg);
+  background-size: 100%;
+  }
+.mark{
+  margin-top:7rpx;
+  margin-bottom:7rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+  border-radius:6rpx;
+  background: #eeeeee;
+
+}

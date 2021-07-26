@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/school/school",
+    "pages/subject/subject",
+    "pages/mine/mine",
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "高考志愿推荐",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/首页.png",
+      "selectedIconPath": "images/首页1.png"
+    },
+    {
+      "pagePath": "pages/school/school",
+      "text": "院校",
+      "iconPath": "images/院校.png",
+      "selectedIconPath": "images/院校1.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/我的.png",
+      "selectedIconPath": "images/我的1.png"
+    }
+  ]
+  }
+}

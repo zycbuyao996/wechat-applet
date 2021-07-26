@@ -1,0 +1,22 @@
+.subcss{
+  margin-top:7rpx;
+  margin-bottom:7rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+  border-radius:6rpx;
+  background: #eeeeee;
+  height: 120rpx;
+  
+
+}
+.biaoqian{
+  background: #fdeff2;
+  margin-top:30rpx;
+  height: 30rpx;
+  font-size: 25rpx;
+
+}
+page{
+  height:100%;
+  background:#1296db
+  }

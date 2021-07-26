@@ -1,0 +1,2 @@
+<!--pages/login/login.wxml-->
+<button class="btn" catchtap="GetUserInfo">登录</button>
